@@ -120,8 +120,6 @@ alias clang-chromium='clang-format --style=Chromium --dump-config > .clang-forma
 
 
 
-
-
 # Atalhos para Python
 alias p='python3'
 
