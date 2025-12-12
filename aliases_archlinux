@@ -134,12 +134,18 @@ alias sslgameController='cd ~/Warthog/3rdparty/ssl-game-controller && make run'
 alias gposh='cd ~/.oh_my_posh_themes && git add . && git commit -m a && git push'
 
 # Usar Oh my posh no terminal
-    # Temas
-    craver='~/.oh_my_posh_themes/craver.omp.json'
+# --- Temas ---
+craver='~/.oh_my_posh_themes/craver.omp.json'
+gruvbox='~/.oh_my_posh_themes/gruvbox.omp.json'
+blueish='~/.oh_my_posh_themes/blueish.omp.json'
+stelbent_compact_minimal='~/.oh_my_posh_themes/stelbent-compact.minimal.omp.json'
+clean_detailed='~/.oh_my_posh_themes/clean-detailed.omp.json'
+unicorn='~/.oh_my_posh_themes/unicorn.omp.json'
+catppuccin='~/.oh_my_posh_themes/catppuccin.omp.json'
 
 # Inicia o Oh my posh
 # eval "$(oh-my-posh init bash --config $craver)" # For bash
-# eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
-# eval "afetch | cowsay -n -f small"
+eval "$(oh-my-posh init zsh --config $craver)"  # For zsh
+# eval "uwufetch | cowsay -n -f small"
 
 
