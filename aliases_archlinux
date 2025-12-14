@@ -34,6 +34,7 @@ alias environment_variables='$Editor ~/.environment_variables'
 alias k='(kitty . &) && disown'
 alias h='$EDITOR ~/.config/hypr/hyprland.conf'
 alias o='okular'
+alias nconfig='cd ~/.config/nvim/ && $EDITOR . && cd -'
 
 # Aliases for studies
 alias x='xournalpp'
